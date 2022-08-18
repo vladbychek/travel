@@ -36,6 +36,9 @@
    display: flex;
    align-items: center;
 }
+.adapt__show{
+   display: none;
+}
 .explore__content__search__btn{
    color: white;
    background-color: #0D606F;
@@ -50,3 +53,44 @@
    margin: 18px 0;
    cursor: pointer;
 }
+@media screen and (min-width: 390px) and (max-width: 1251px){
+   .explore__content__title{
+      display: none;
+   }
+   .explore{
+      width: 360px;
+      margin: 0 auto;
+   }
+   .explore__content__text{
+      display: none;
+   }
+   .explore__content__search__btn{
+      font-size: 11px;
+      line-height: 15px;
+      padding: 7.5px 9px;
+      margin: 9px 0;
+   }
+   .explore__content__search__text{
+      font-size: 14px;
+      line-height: 16px;
+   }
+   .explore__content__search{
+      padding: 0 16px;
+      margin: 0 auto;
+      gap: 60px;
+   }
+   .adapt__show{
+      display: block;
+      padding: 43px 10px 67px;
+   }
+   .adapt__show__item2{
+      float: right;
+   }
+}
+
+
+
+
+
+
+

@@ -67,3 +67,74 @@
   font-size: 25px;
   margin-right: 13px;
 }
+.adapt__popular{
+  background: url(../img/adapt-pop.png);
+  width: 360px;
+  height: 210px;
+  border-radius: 16px;
+  margin-top: 20px;
+  display: none;
+}
+.adapt__popular__text{
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  font-family: 'Red Hat Text', sans-serif;
+  padding: 8px 0 0 15px;
+}
+.adapt__popular__left-and-right__left{
+  margin-right: 309px;
+}
+.adapt__popular__left-and-right{
+  margin: 58px 0 0 8px;
+}
+.adapt__popular__radiobtns__item{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.adapt__popular__radiobtns{
+  display: flex;
+  margin: 70px auto 0;
+  justify-content: center;
+}
+.adapt__popular__radiobtns__item{
+  background: rgba(242, 120, 92, 0.5);
+  margin: 0 6px;
+  cursor: pointer;
+}
+.special__radiobtn{
+  background-color: #F2785C;
+}
+@media screen and (min-width: 390px) and (max-width: 1251px){
+  .popular{
+      margin-top: 22px;
+  }
+  .popular__content{
+    width: 360px;
+  }
+  .popular__content__title{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .popular__content__picture{
+    display: none;
+  }
+  .popular__content__radiobtns{
+    display: none;
+  }
+  .popular__content__btn{
+    font-size: 11px;
+    line-height: 15px;
+    padding: 7.5px 12px;
+    margin: 10px auto 0;
+  }
+  .popular__content__btn__icon{
+    font-size: 10px;
+    margin-right: 8px;
+  }
+  .adapt__popular{
+    display: block;
+  }
+}

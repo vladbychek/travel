@@ -27,3 +27,38 @@
    display: block;
    margin: 0 auto;
 }
+@media screen and (min-width: 390px) and (max-width: 1251px){
+   .steps__content{
+      width: 360px;
+      margin: 20px auto 0;
+   }
+   .steps__content__title{
+      font-size: 14px;
+      line-height: 18px;
+   }
+   .steps__content__icons__item__img{
+      width: 70px;
+      height: 70px;
+   }
+   .steps__content__icons__item__text{
+      font-size: 10px;
+      line-height: 12px;
+      margin-top: 20px;
+   }
+   .steps__content__icons{
+      margin-top: 20px;
+      gap: 40px;
+   }
+   .steps__img__one{
+      margin: 0 auto 0 0;
+   }
+   .steps__img__three{
+      /* margin: 0 0 0 auto; */
+   }
+   .steps__text__two{
+      text-align: center;
+   }
+   .steps__text__three{
+      text-align: center;
+   }
+}
