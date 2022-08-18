@@ -1,6 +1,6 @@
-.explore__content{
-   width: 892px;
-   margin: 32px 0 0 120px;
+.explore{
+   width: 1177px;
+   margin: 32px auto 0;
 }
 .explore__content__title{
    font-family: 'Aleo', serif;
@@ -21,9 +21,10 @@
 .explore__content__search{
    background: rgba(255, 255, 255, 0.7);
    border-radius: 16px;
-   display: flex;
+   display: inline-flex;
    gap: 250px;
    margin-top: 46px;
+   padding: 0 25px;
 }
 .explore__content__search__text{
    color: #F2785C;
@@ -34,7 +35,6 @@
    font-style: italic;
    display: flex;
    align-items: center;
-   margin-left: 41px;
 }
 .explore__content__search__btn{
    color: white;

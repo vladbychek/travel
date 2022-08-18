@@ -1,0 +1,73 @@
+.travel__content{
+   width: 1201px;
+   margin: 0 auto;
+}
+.travel__title{
+   color: #F2785C;
+   font-size: 40px;
+   font-family: 'Red Hat Text', sans-serif;
+   line-height: 52px;
+   font-weight: 500;
+   text-align: center;
+   margin: 80px 0 40px;
+}
+.bg2{
+   background-image: url(../img/bg2.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height: 1331px;
+}
+.bg2__fon{
+   background: rgba(255, 255, 255, 0.7);
+   width: 100%;
+   height: 1270px;
+}
+.travel__content__item{
+   display: flex;
+   padding-top: 30px;
+}
+.travel__content__item__left{
+   margin-right: 40px;
+   border-radius: 16px;
+   filter: drop-shadow(0px 4px 4px #0D606F);
+}
+.travel__content__item__right__title{
+   font-size: 35px;
+   font-weight: 400;
+   line-height: 42px;
+   font-family: 'Aleo', serif;
+   color: #0D606F;
+}
+.travel__content__item__right__text{
+   font-family: 'Aleo', serif;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   color: #0D606F;
+   margin-top: 24px;
+}
+.travel__content__item__right__text__link{
+   font-weight: 700;
+   color: #0D606F;
+}
+.travel__content__btn{
+   color: white;
+   font-family: 'Red Hat Text', sans-serif;
+   font-size: 24px;
+   line-height: 31px;
+   font-weight: 500;
+   background-color: #0D606F;
+   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+   border-radius: 10px;
+   border: none;
+   padding: 13px 30px;
+   display: block;
+   margin: 40px auto 0;
+   cursor: pointer;
+ }
+ .travel__content__btn__icon{
+   font-size: 25px;
+   margin-right: 13px;
+ }

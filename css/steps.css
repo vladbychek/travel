@@ -1,4 +1,29 @@
 .steps__content{
    width: 1177px;
-   padding-top: 80px;
+   margin: 80px auto 0;
+}
+.steps__content__title{
+   color: #F2785C;
+   font-size: 40px;
+   line-height: 52px;
+   font-weight: 500;
+   font-family: 'Red Hat Text', sans-serif;
+   text-align: center;
+}
+.steps__content__icons{
+   display: flex;
+   margin-top: 40px;
+   justify-content: space-between;
+}
+.steps__content__icons__item__text{
+   color: #0D606F;
+   font-family: 'Aleo', serif;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 24px;
+   margin-top: 30px;
+}
+.steps__content__icons__item__img{
+   display: block;
+   margin: 0 auto;
 }

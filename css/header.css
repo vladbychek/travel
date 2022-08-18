@@ -9,7 +9,6 @@
    background-size: cover;
    width: 100%;
    height: 765px;
-   position: absolute;
 }
 .header{
    width: 100%;
@@ -19,8 +18,9 @@
 }
 .header__content{
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
    padding-top: 25px;
+   margin: 0 auto;
 }
 .header__content__logo{
    display: flex;
@@ -37,6 +37,7 @@
 .header__content__menu{
    display: flex;
    gap: 42px;
+   margin: 0 196px 0 158px;
 }
 .header__content__menu__item{
    font-family: 'Red Hat Text', sans-serif;
